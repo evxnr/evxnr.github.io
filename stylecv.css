@@ -1,0 +1,50 @@
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.conteneur {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: lightgrey;
+}
+
+.photo {
+    margin-left: 15%;
+    margin-top: 10%;
+    font-size: 20px;
+    text-align: center;
+}
+
+.textedepresentation {
+    grid-column: 2/4;
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+    text-align: left;
+    font-size: 25px;
+}
+
+.D {
+    grid-column: 1/2;
+    grid-row: 2/5;
+    margin-left: 20%;
+    font-size: 20px;
+}
+
+.E{
+    grid-column: 2/4;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 5%;
+}
+
+.G{
+    grid-column: 2/4;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 5%;
+}
